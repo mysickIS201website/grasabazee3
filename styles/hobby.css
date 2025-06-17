@@ -1,1 +1,28 @@
+/* styles/hobby.css */
 
+body {
+  background-color: #ffe4ec; /* soft pink */
+  background-image: url('https://www.transparenttextures.com/patterns/cute-flower-pattern.png'); /* subtle flower pattern */
+  background-repeat: repeat;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #6a1b4d; /* dark pinkish purple */
+}
+
+h1, h2 {
+  font-family: 'Arial Black', Arial, sans-serif;
+  color: #9c27b0; /* purple */
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+a {
+  color: #d81b60; /* bright pink */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
