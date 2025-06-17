@@ -1,28 +1,57 @@
-/* styles/hobby.css */
-
+/* Body and background */
 body {
-  background-color: #ffe4ec; /* soft pink */
-  background-image: url('https://www.transparenttextures.com/patterns/cute-flower-pattern.png'); /* subtle flower pattern */
-  background-repeat: repeat;
   font-family: 'Comic Sans MS', cursive, sans-serif;
-  color: #6a1b4d; /* dark pinkish purple */
+  color: #5a3e36;
+  background-color: #ffe4ec; /* soft pink */
+  background-image: url('https://www.transparenttextures.com/patterns/flowers.png');
+  background-repeat: repeat;
+  background-size: 40px 40px;
+  margin: 0;
+  padding-top: 56px; /* for navbar spacing */
 }
 
+/* Headings */
 h1, h2 {
   font-family: 'Arial Black', Arial, sans-serif;
-  color: #9c27b0; /* purple */
+  color: #b83256;
+  margin-bottom: 1rem;
 }
 
+/* Paragraphs */
 p {
   font-size: 1.1rem;
-  line-height: 1.5;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
 }
 
+/* Links */
 a {
-  color: #d81b60; /* bright pink */
+  color: #b83256;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(184, 50, 86, 0.4);
+  margin-top: 1.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Div sections */
+.intro-section, 
+.why-love-section, 
+.media-section {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 15px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 10px rgba(183, 50, 86, 0.15);
 }
