@@ -9,6 +9,13 @@
     body {
       padding-top: 56px;
     }
+    .tableauPlaceholder {
+      width: calc(100% - 1rem); /* full width minus margins */
+      max-width: 1200px;
+      height: calc(100vh - 56px - 1rem); /* viewport height minus navbar and margins */
+      margin: 0.5rem;
+      position: relative;
+    }
   </style>
 </head>
 <body>
@@ -31,7 +38,7 @@
   </nav>
 
   <main class="container mt-5">
-    <div class='tableauPlaceholder' id='viz1750119337393' style='position: relative; width: 1200px; height: 900px; margin: 0 auto;'>
+    <div class='tableauPlaceholder' id='viz1750119337393'>
       <noscript>
         <a href='#'>
           <img alt='Happiness around the world' src='https://public.tableau.com/static/images/Ha/Happinessaroundtheworld_17449315697580/Happinessaroundtheworld/1_rss.png' style='border: none' />
